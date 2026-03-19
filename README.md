@@ -50,10 +50,4 @@
 ---
 
 ## Screenshots
-
 ---
-
-## 🔹Why This Project Matters
-#### This project demonstrates practical experience with identiy and access management in a Windows domain environment. 
-#### The ability to manage user accounts, enforce security policies, and resolve authentication issues aligns directly with responsiblities as a Help Desk professional, entry level positions, and junior level professionals.
-#### It highlights both technical execution and the ability to support end user access, a critical function for any organization. 
