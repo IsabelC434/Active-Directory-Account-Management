@@ -6,7 +6,7 @@
 #### This project demonstrates hands on implementation of user account management and security policy enforcement within an Active Directory environment using Windows Server.
 #### Core administrative tasks included configuring account lockout policies through Group Policy, managing user account states, and resolving authentication-related incidents such as account lockouts and credential resets.
 
-- ### Technologies and Tools Used
+- ### Technologies and Tools:
     - Active Directory Domain Services (AD DS)
     - Group Policy Management Console (GPMC)
     - Active Directory Users and Computers (ADUC)
