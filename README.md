@@ -1,3 +1,7 @@
+  <p align="center"> <img width="500" height="250" alt="logo-active-directory" src="https://github.com/user-attachments/assets/57efe1c3-f0ef-4e80-a1ee-5db83ab9abac" />
+
+
+
 # 📁 Active Directory Account Management & Security Policy Enforcement
 
 ---
