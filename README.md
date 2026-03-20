@@ -18,6 +18,7 @@
     - Windows Server 2022
     - Windows 10
     - Remote Desktop Protocol (RDP)
+    - PowerShell ISE (Implement script to generate users) 
 #### This project reflects real world IT operations commonly performed in Help Desk and Junior System Administration roles, particularly in managing user access and enforcing security policies within a domain environment. 
 ---
 
@@ -39,6 +40,9 @@
 ---
 
 ## 🔹Demonstration
+
+---
+## 🔹Group Policy
 
 ---
 
