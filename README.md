@@ -33,10 +33,13 @@
 ## 🔹Environment Setup 
 - Domain Controller: Windows Server 2022
 - Client machine: Windows 10
+- Configured a VNET that both computers are on.
+- Installed Active Directory through Server Manager
+- Created a Domain: isabelsdomain.com
   #### Adminstrative tools:
   - Group Policy Management Console (GPMC)
-  - Active Directory Users & Computers (ADUC) 
-
+  - Active Directory Users & Computers (ADUC)
+  - PowerShell ISE
 ---
 
 ## 🔹User Creation
