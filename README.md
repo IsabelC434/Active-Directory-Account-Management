@@ -39,9 +39,20 @@
 
 ---
 
-## 🔹Demonstration
+## 🔹User Creation
 
 ---
+## 🔹 Domain Authentication
+---
+## 🔹 Account Lockout Policy
+
+---
+## 🔹 Account Recovery
+---
+
+## 🔹 Account Management
+---
+
 ## 🔹Group Policy Configuration
 
 ---
