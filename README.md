@@ -51,7 +51,7 @@
    - Created administrative user account (Jane Doe)
    - Used PowerShell ISE to execute a script for bulk user creation within the _EMPLOYEE OU
    - Selected a generated user account for client testing (Ashley.Garcia) 
-### Authentication testing 
+#### Authentication testing 
   - Verified administrative login using isabelsdomain.com\jane_admin
   - Logged into Client-1 using isabelsdomain.com\Ashley.Garcia
   - Confirmed successful domain authentication
