@@ -81,7 +81,7 @@
 ---
 
 ## 🔹Group Policy Configuration
-### Configured domain-level policies to enforce security and user restrictions.
+### Configured domain level policies to enforce security and user restrictions.
   - Defined password policies (length, complexity, expiration)
   - Configured account lockout thresholds
   - Applied policies across the domain
