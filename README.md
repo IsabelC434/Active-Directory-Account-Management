@@ -41,25 +41,56 @@
   - Active Directory Users & Computers (ADUC)
   - PowerShell ISE
 ---
-
-## 🔹User Creation
-
+## 🔹Domain Configuration
+   - Promoted dc-1 to Domain Controller
+   - Configured DNS
+   - Ensured that Client-1 points to dc-1 for DNS
 ---
-## 🔹 Domain Authentication
+## 🔹User Creation
+#### User accounts were created both manually and through automation.
+   - Created administrative user account (Jane Doe)
+   - Used PowerShell ISE to execute a script for bulk user creation within the _EMPLOYEE OU
+   - Selected a generated user account for client testing (Ashley.Garcia) 
+### Authentication testing 
+  - Verified administrative login using isabelsdomain.com\jane_admin
+  - Logged into Client-1 using isabelsdomain.com\Ashley.Garcia
+  - Confirmed successful domain authentication
 ---
 ## 🔹 Account Lockout Policy
-
+### Configured an account lockout policy using Group Policy to enhance security against unauthorized access attempts.
+  -  Set lockout threshold to 3 failed login attempts
+  -  Forced Group Policy update using gpupdate /force
+  -  Triggered lockout by entering incorrect credentials
+  -  Verified account lockout status in Active Directory
+  -  Unlocked account and restored access
 ---
 ## 🔹 Account Recovery
+### Simulated common help desk scenarios involving account access issues.
+  - Disabled a user account in Active Directory
+  - Verified login failure due to disabled account status
+  - Re-enabled the account
+  - Confirmed restored access through successful login
 ---
 
 ## 🔹 Account Management
+### Active Directory was used to manage user account lifecycle and access control.
+  - Reset user passwords
+  - Enabled and disabled user accounts
+  - Unlocked locked accounts
+  - Managed user attributes and permissions 
 ---
 
 ## 🔹Group Policy Configuration
-
+### Configured domain-level policies to enforce security and user restrictions.
+  - Defined password policies (length, complexity, expiration)
+  - Configured account lockout thresholds
+  - Applied policies across the domain
+### User Restrictions
+  - Disabled access to Control Panel and Command Prompt
+  - Restricted software installation
+    
+#### Group Policy provides centralized control over user behavior and system security within the domain environment.
 ---
-
 ## 🔹Key Takeaways
 - Group Policy provides centralized control over domain wide security configurations
 - Account lockout policies are critical for mitigating unauthorized access attempts
