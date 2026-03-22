@@ -97,6 +97,3 @@
 - Active Directory enables efficient user account managment and access control
 - Troubleshooting authentication issues requires both system knowledge and structured analysis 
 ---
-
-## Screenshots
----
