@@ -6,9 +6,9 @@
 
 ---
 
-## 🔹Summary
+## 🔹Project Overview
 #### This project demonstrates hands on implementation of user account management and security policy enforcement within an Active Directory environment using Windows Server.
-#### Core administrative tasks included configuring account lockout policies through Group Policy, managing user account states, and resolving authentication-related incidents such as account lockouts and credential resets.
+#### Core administrative tasks included configuring account lockout policies through Group Policy, managing user account states, and resolving authentication-related incidents such as account lockouts and credential resets. This project simulates real world Active Directory administration tasks performed in enterprise IT environments, particularly in Help Desk and Junior System Administration roles.
 
 - ### Technologies and Tools:
     - Active Directory Domain Services (AD DS)
@@ -45,16 +45,28 @@
    - Promoted dc-1 to Domain Controller
    - Configured DNS
    - Ensured that Client-1 points to dc-1 for DNS
+<img src="images/Domain-Controller.png" width="600"/>
+
 ---
+
 ## 🔹User Creation
 #### User accounts were created both manually and through automation.
    - Created administrative user account (Jane Doe)
    - Used PowerShell ISE to execute a script for bulk user creation within the _EMPLOYEE OU
-   - Selected a generated user account for client testing (Ashley.Garcia) 
+   - Selected a generated user account for client testing (Ashley.Garcia)
+
+<img src="images/Successful-User-Generation.png" width="600"/>
+
+<img src="images/Users-in-_EMP-folder.png" width="600"/>
+
+  
 #### Authentication testing 
   - Verified administrative login using isabelsdomain.com\jane_admin
   - Logged into Client-1 using isabelsdomain.com\Ashley.Garcia
   - Confirmed successful domain authentication
+
+<img src="images/Jane-Doe-successful-Login.png" width="600">
+
 ---
 ## 🔹 Account Lockout Policy
 ### Configured an account lockout policy using Group Policy to enhance security against unauthorized access attempts.
@@ -63,13 +75,22 @@
   -  Triggered lockout by entering incorrect credentials
   -  Verified account lockout status in Active Directory
   -  Unlocked account and restored access
+
+<img src="images/Ashley.Garcia-Lockout.png" width="600"/>
+    
+<img src="images/Unlocking-Ashley.Garcia-Accnt.png" width="600"/>
+
+<img src="images/Ashley.Garcia-Access-after-lockout.png" width="600"/>
+
 ---
+
 ## 🔹 Account Recovery
 ### Simulated common help desk scenarios involving account access issues.
   - Disabled a user account in Active Directory
   - Verified login failure due to disabled account status
   - Re-enabled the account
   - Confirmed restored access through successful login
+
 ---
 
 ## 🔹 Account Management
@@ -77,7 +98,10 @@
   - Reset user passwords
   - Enabled and disabled user accounts
   - Unlocked locked accounts
-  - Managed user attributes and permissions 
+  - Managed user attributes and permissions
+
+<img src="images/Reset-Password-and-unchecking-the-box-to-change-password-upon-login.png" width="600"/>
+
 ---
 
 ## 🔹Group Policy Configuration
@@ -86,8 +110,13 @@
   - Configured account lockout thresholds
   - Applied policies across the domain
 ### User Restrictions
-  - Disabled access to Control Panel and Command Prompt
-  - Restricted software installation
+  - Disabled 
+  - Restricted screen background changes
+
+<img src="images/Group-Policy-changes.png" width="600"/>
+
+<img src="images/Change-Password-14-days-before-expiration-reminder.png" width="600"/>
+
     
 #### Group Policy provides centralized control over user behavior and system security within the domain environment.
 ---
