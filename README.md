@@ -110,7 +110,7 @@
   - Configured account lockout thresholds
   - Applied policies across the domain
 ### User Restrictions
-  - Disabled 
+  - Disabled user text file history on the Start Menu
   - Restricted screen background changes
 
 <img src="images/Group-Policy-changes.png" width="600"/>
