@@ -1,5 +1,5 @@
 ![Domain Login](images/Jane-Doe-Successful-Login.png) 
-![Users](./images/Successful-User-Generation.png) 
+![Users](images/Successful-User-Generation.png) 
 ![Users](images/Users-in-_EMP-folder.png) 
 ![Users](images/Ashley-Garcia-verified-on-the-Domain.png) 
 ![Denied](images/Ashley.Garcia-Lockout.png) 
