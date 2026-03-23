@@ -1,1 +1,11 @@
-
+![Domain Login](images/Jane-Doe-Successful-Login.png) 
+![Users](images/Succssesful-User-Generation.png) 
+![Users](images/Users-in-_EMP-folder.png) 
+![Users](images/Ashley-Garcia-verified-on-the-Domain.png) 
+![Denied](images/Ashley.Garcia-Lockout.png) 
+![Access](images/Ashley.Garcia-Access-after-lockout.png) 
+![Domain](images/Domain-Controller.png) 
+![Group](images/Group-Policy-changes.png) 
+![Change](images/Change-Password-14-days-before-expiration-reminder.png) 
+![Reset](images/Reset-Password-and-unchecking-the-box-to-change-password-upon-login.png)
+![Unlock](images/Unlocking-Ashley.Garcia-Accnt.png) 
