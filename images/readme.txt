@@ -1,4 +1,4 @@
-![Domain Login](images/Jane-Doe-successful-Login.png) 
+![Domain](images/Jane-Doe-successful-Login.png) 
 ![Users](images/Successful-User-Generation.png) 
 ![Users](images/Users-in-_EMP-folder.png) 
 ![Users](images/Ashley-Garcia-verified-on-the-Domain.png) 
